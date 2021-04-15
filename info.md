@@ -1,6 +1,6 @@
 ## Changelog
-### 0.0.10 - Home Assistant 2021.4
-Fix breaking change
+### 0.0.9.1 - Home Assistant 2021.4
+Fix breaking change - version is now required.
 
 ### 0.0.9 - More stability fixes
 Prevents wyzesense from stopping when receiving an unparseable packet. Should help with stability issues.
