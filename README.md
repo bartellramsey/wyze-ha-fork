@@ -1,5 +1,13 @@
-## Fork from kevinvincent's repo
-This is a fork to maintain compatibility after Home Assistant 2021.4's breaking change with version requirements.
+## Keeping Wyze Sense v1 alive
+First things first, I did not create any of this code. I am not a "programmer." I'm just a guy with a lot of v1 sensors that hates to spend money on things that are repairable. So please understand I'm learning as I go.
+
+This is a direct fork of [kevinvincent's](https://github.com/kevinvincent/ha-wyzesense) code with a single small patch (credit: [u/droans](https://reddit.com/u/droans)) to keep it going (as of April 2021).
+My goal is simply to compile and merge patches as I find them to keep this component alive as long as possible. If Kevin returns this project will cease.
+
+Since any changes will *only* be patches to maintain operability Kevin's version number (0.0.9) will not change. If there is an update Home Assistant will only refer to it by the commit id.
+
+Any patches (and credit) will be listed below by date:
+2021-04-14: Fix versioning. 
 
 # Home Assistant - WYZE Sense Component
 
