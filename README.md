@@ -90,7 +90,9 @@ binary_sensor:
     * Wyze door sensors will report `off` when the magnetized portion is within ~1 inch of the door sensor body.
 * Notes on selected Sensor Attributes:
   * `rssi`: This stands for received signal strength indicator. Higher values (closer to 0) mean a stronger signal.
-  * `battery_level`: The sensor does a basic calculation with the battery voltage. Because of this, battery percentage may be higher than 100% when you first get a sensor. Enjoy the longer battery life :)
+  * `battery_level`: The sensor does a basic calculation with the battery voltage. Because of this, battery percentage may be higher than 100% when you first get a sensor.
+     
+     *APRIL 2021 NOTICE ABUT BATTERY: Due to a defect in the TI CC1310 controller if your battery drops below a minimum voltage it will lose it's MAC address. It is HIGHLY RECCOMENDED to change your battery before you would normally do so (say 25-30%). The only known after-the-fact fix is [here](https://forums.wyzecam.com/t/unbricking-wyze-contact-sensor-pcb-reset-pin/146856/129).*
 
 ## Services
 For all services a persistent notification will be sent for both successes and failures.
