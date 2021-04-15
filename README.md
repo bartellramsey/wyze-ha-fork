@@ -1,5 +1,5 @@
 ## Fork from kevinvincent's repo
-This is a fork to maintain compatibility after the 2021.4 breaking change with version requirements.
+This is a fork to maintain compatibility after Home Assistant 2021.4's breaking change with version requirements.
 
 # Home Assistant - WYZE Sense Component
 
