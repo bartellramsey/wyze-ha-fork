@@ -1,7 +1,7 @@
 """ 
 
 wyzesense integration
-v0.0.10
+v0.0.9
 
 """
 
